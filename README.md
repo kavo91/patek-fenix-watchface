@@ -13,6 +13,21 @@ Primary target: `fenix9pro43mm` (416 × 416 AMOLED, Connect IQ API 6.0). Built a
 the Connect IQ 9.2.0 simulator; the same-panel `fenix943mm` and `fenix843mm` are in the manifest
 and compile, but were not pixel-checked.
 
+## Screenshots
+
+Simulator captures on the fēnix 9 Pro 43mm (416 × 416).
+
+<table>
+  <tr>
+    <td align="center"><img src="store/screen-1-light.png" width="200" alt="Light dial with steps, Body Battery and moon-phase sub-dials"><br><sub>Light</sub></td>
+    <td align="center"><img src="store/screen-2-dark.png" width="200" alt="Dark dial with the same sub-dials"><br><sub>Dark</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="store/screen-3-fields.png" width="200" alt="Light dial with heart rate, digital time and battery sub-dials"><br><sub>Other fields</sub></td>
+    <td align="center"><img src="store/screen-4-always-on.png" width="200" alt="Always-on outline face on black"><br><sub>Always-on</sub></td>
+  </tr>
+</table>
+
 ## Assumptions made during the autonomous build
 
 These were decided without a chance to ask; each is a one-line change if you want it different.
