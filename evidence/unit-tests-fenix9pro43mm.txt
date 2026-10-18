@@ -1,0 +1,51 @@
+------------------------------------------------------------------------------
+Executing test moonAnchorIsNew...
+PASS
+------------------------------------------------------------------------------
+Executing test moonHalfCycleIsFull...
+PASS
+------------------------------------------------------------------------------
+Executing test moonBeforeAnchorWraps...
+PASS
+------------------------------------------------------------------------------
+Executing test thousandsFormat...
+PASS
+------------------------------------------------------------------------------
+Executing test shortAndKFormats...
+PASS
+------------------------------------------------------------------------------
+Executing test hourWindowWraps...
+PASS
+------------------------------------------------------------------------------
+Executing test gaugeAndDateAngles...
+PASS
+------------------------------------------------------------------------------
+Executing test aodOffsetsMoveEveryMinute...
+PASS
+------------------------------------------------------------------------------
+Executing test readoutSteps...
+PASS
+------------------------------------------------------------------------------
+Executing test windowTexts...
+PASS
+------------------------------------------------------------------------------
+Executing test readoutDigitalAndMissing...
+PASS
+
+==============================================================================
+RESULTS
+Test:                               Status:
+moonAnchorIsNew                     PASS
+moonHalfCycleIsFull                 PASS
+moonBeforeAnchorWraps               PASS
+thousandsFormat                     PASS
+shortAndKFormats                    PASS
+hourWindowWraps                     PASS
+gaugeAndDateAngles                  PASS
+aodOffsetsMoveEveryMinute           PASS
+readoutSteps                        PASS
+windowTexts                         PASS
+readoutDigitalAndMissing            PASS
+Ran 11 tests
+
+PASSED (passed=11, failed=0, errors=0)

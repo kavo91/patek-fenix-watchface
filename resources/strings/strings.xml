@@ -1,0 +1,47 @@
+<strings>
+    <string id="AppName">Patek FENIX</string>
+
+    <string id="SetTheme">Colour mode</string>
+    <string id="ThemeAuto">Auto (day = silver, night = black)</string>
+    <string id="ThemeLight">Light (silver face)</string>
+    <string id="ThemeDark">Dark (black face)</string>
+    <string id="SetAutoBySun">Auto mode follows sunrise/sunset when the watch knows them</string>
+    <string id="SetDayStart">Auto mode: day starts at (hour, 0-23)</string>
+    <string id="SetDayEnd">Auto mode: day ends at (hour, 0-23)</string>
+
+    <string id="SetSlotLeft">9 o'clock sub-dial</string>
+    <string id="SetSlotRight">3 o'clock sub-dial</string>
+    <string id="SetSlotBottom">6 o'clock sub-dial</string>
+    <string id="SetWinLeft">12 o'clock window, left</string>
+    <string id="SetWinRight">12 o'clock window, right</string>
+
+    <string id="FieldNone">Empty</string>
+    <string id="FieldBodyBattery">Body Battery</string>
+    <string id="FieldSteps">Steps</string>
+    <string id="FieldBattery">Watch battery</string>
+    <string id="FieldDate">Date</string>
+    <string id="FieldDigital">Digital time</string>
+    <string id="FieldHeartRate">Heart rate</string>
+    <string id="FieldCalories">Calories</string>
+    <string id="FieldFloors">Floors climbed</string>
+    <string id="FieldStress">Stress</string>
+    <string id="FieldMoon">Moon phase + date track</string>
+
+    <string id="WinEmpty">Empty</string>
+    <string id="WinWeekday">Weekday (SAT)</string>
+    <string id="WinMonth">Month (SEP)</string>
+    <string id="WinDay">Day (11)</string>
+    <string id="WinDayMonth">Day/Month (11/09)</string>
+    <string id="WinMonthDay">Month/Day (09/11)</string>
+    <string id="WinBattery">Watch battery %</string>
+    <string id="WinBodyBattery">Body Battery</string>
+    <string id="WinSteps">Steps</string>
+    <string id="WinHeartRate">Heart rate</string>
+    <string id="WinCalories">Calories</string>
+    <string id="WinFloors">Floors climbed</string>
+    <string id="WinStress">Stress</string>
+    <string id="WinDigital">Digital time</string>
+
+    <string id="SetMoonSouth">Southern-hemisphere moon (lit side mirrored)</string>
+    <string id="SetShowSeconds">Seconds hand while the watch is awake</string>
+</strings>

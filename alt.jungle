@@ -1,0 +1,3 @@
+# Debug variant: light palette with alternate data slots for simulator screenshots.
+project.manifest = manifest.xml
+base.sourcePath = source;source-probe-alt

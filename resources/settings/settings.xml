@@ -1,0 +1,105 @@
+<settings>
+    <setting propertyKey="@Properties.themeMode" title="@Strings.SetTheme">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ThemeAuto</listEntry>
+            <listEntry value="1">@Strings.ThemeLight</listEntry>
+            <listEntry value="2">@Strings.ThemeDark</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.autoBySun" title="@Strings.SetAutoBySun">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.dayStartHour" title="@Strings.SetDayStart">
+        <settingConfig type="numeric" min="0" max="23"/>
+    </setting>
+    <setting propertyKey="@Properties.dayEndHour" title="@Strings.SetDayEnd">
+        <settingConfig type="numeric" min="0" max="23"/>
+    </setting>
+
+    <setting propertyKey="@Properties.slotLeft" title="@Strings.SetSlotLeft">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldNone</listEntry>
+            <listEntry value="1">@Strings.FieldBodyBattery</listEntry>
+            <listEntry value="2">@Strings.FieldSteps</listEntry>
+            <listEntry value="3">@Strings.FieldBattery</listEntry>
+            <listEntry value="4">@Strings.FieldDate</listEntry>
+            <listEntry value="5">@Strings.FieldDigital</listEntry>
+            <listEntry value="6">@Strings.FieldHeartRate</listEntry>
+            <listEntry value="7">@Strings.FieldCalories</listEntry>
+            <listEntry value="8">@Strings.FieldFloors</listEntry>
+            <listEntry value="9">@Strings.FieldStress</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.slotRight" title="@Strings.SetSlotRight">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldNone</listEntry>
+            <listEntry value="1">@Strings.FieldBodyBattery</listEntry>
+            <listEntry value="2">@Strings.FieldSteps</listEntry>
+            <listEntry value="3">@Strings.FieldBattery</listEntry>
+            <listEntry value="4">@Strings.FieldDate</listEntry>
+            <listEntry value="5">@Strings.FieldDigital</listEntry>
+            <listEntry value="6">@Strings.FieldHeartRate</listEntry>
+            <listEntry value="7">@Strings.FieldCalories</listEntry>
+            <listEntry value="8">@Strings.FieldFloors</listEntry>
+            <listEntry value="9">@Strings.FieldStress</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.slotBottom" title="@Strings.SetSlotBottom">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FieldNone</listEntry>
+            <listEntry value="1">@Strings.FieldBodyBattery</listEntry>
+            <listEntry value="2">@Strings.FieldSteps</listEntry>
+            <listEntry value="3">@Strings.FieldBattery</listEntry>
+            <listEntry value="4">@Strings.FieldDate</listEntry>
+            <listEntry value="5">@Strings.FieldDigital</listEntry>
+            <listEntry value="6">@Strings.FieldHeartRate</listEntry>
+            <listEntry value="7">@Strings.FieldCalories</listEntry>
+            <listEntry value="8">@Strings.FieldFloors</listEntry>
+            <listEntry value="9">@Strings.FieldStress</listEntry>
+            <listEntry value="10">@Strings.FieldMoon</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.winLeft" title="@Strings.SetWinLeft">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.WinEmpty</listEntry>
+            <listEntry value="1">@Strings.WinWeekday</listEntry>
+            <listEntry value="2">@Strings.WinMonth</listEntry>
+            <listEntry value="3">@Strings.WinDay</listEntry>
+            <listEntry value="4">@Strings.WinDayMonth</listEntry>
+            <listEntry value="5">@Strings.WinMonthDay</listEntry>
+            <listEntry value="6">@Strings.WinBattery</listEntry>
+            <listEntry value="7">@Strings.WinBodyBattery</listEntry>
+            <listEntry value="8">@Strings.WinSteps</listEntry>
+            <listEntry value="9">@Strings.WinHeartRate</listEntry>
+            <listEntry value="10">@Strings.WinCalories</listEntry>
+            <listEntry value="11">@Strings.WinFloors</listEntry>
+            <listEntry value="12">@Strings.WinStress</listEntry>
+            <listEntry value="13">@Strings.WinDigital</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.winRight" title="@Strings.SetWinRight">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.WinEmpty</listEntry>
+            <listEntry value="1">@Strings.WinWeekday</listEntry>
+            <listEntry value="2">@Strings.WinMonth</listEntry>
+            <listEntry value="3">@Strings.WinDay</listEntry>
+            <listEntry value="4">@Strings.WinDayMonth</listEntry>
+            <listEntry value="5">@Strings.WinMonthDay</listEntry>
+            <listEntry value="6">@Strings.WinBattery</listEntry>
+            <listEntry value="7">@Strings.WinBodyBattery</listEntry>
+            <listEntry value="8">@Strings.WinSteps</listEntry>
+            <listEntry value="9">@Strings.WinHeartRate</listEntry>
+            <listEntry value="10">@Strings.WinCalories</listEntry>
+            <listEntry value="11">@Strings.WinFloors</listEntry>
+            <listEntry value="12">@Strings.WinStress</listEntry>
+            <listEntry value="13">@Strings.WinDigital</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.moonSouth" title="@Strings.SetMoonSouth">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.showSeconds" title="@Strings.SetShowSeconds">
+        <settingConfig type="boolean"/>
+    </setting>
+</settings>

@@ -1,0 +1,21 @@
+<properties>
+    <!-- 0 = auto, 1 = light (silver), 2 = dark (black) -->
+    <property id="themeMode" type="number">0</property>
+    <property id="autoBySun" type="boolean">true</property>
+    <property id="dayStartHour" type="number">7</property>
+    <property id="dayEndHour" type="number">19</property>
+
+    <!-- Sub-dial slots: 0 empty, 1 body battery, 2 steps, 3 battery, 4 date, 5 digital time,
+         6 heart rate, 7 calories, 8 floors, 9 stress, 10 moon phase + date track (6 o'clock only) -->
+    <property id="slotLeft" type="number">2</property>
+    <property id="slotRight" type="number">1</property>
+    <property id="slotBottom" type="number">10</property>
+    <!-- 12 o'clock windows, each independent: 0 empty, 1 weekday, 2 month, 3 day, 4 day/month numbers,
+         5 month/day numbers, 6 battery %, 7 body battery, 8 steps, 9 heart rate, 10 calories, 11 floors,
+         12 stress, 13 digital time -->
+    <property id="winLeft" type="number">4</property>
+    <property id="winRight" type="number">6</property>
+
+    <property id="moonSouth" type="boolean">true</property>
+    <property id="showSeconds" type="boolean">true</property>
+</properties>

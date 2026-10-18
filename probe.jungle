@@ -1,0 +1,3 @@
+# Debug variant: forces the always-on (low-power) renderer so it can be screenshotted in the simulator.
+project.manifest = manifest.xml
+base.sourcePath = source;source-probe

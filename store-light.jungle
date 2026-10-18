@@ -1,0 +1,3 @@
+# Store screenshot variant.
+project.manifest = manifest.xml
+base.sourcePath = source;source-store-light

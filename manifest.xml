@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <!-- Patek FENIX: black/silver luxury analog watch face. Primary target: fenix 9 Pro 43mm (416x416 AMOLED). -->
+    <iq:application id="1b6651132c7147cb9345ef38a9e40800" type="watchface" name="@Strings.AppName" entry="PatekFenixApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.2.1">
+        <iq:products>
+            <!-- primary target: designed and verified at 416x416 -->
+            <iq:product id="fenix9pro43mm"/>
+            <!-- same 416x416 AMOLED panel; compiled, not pixel-verified -->
+            <iq:product id="fenix943mm"/>
+            <iq:product id="fenix843mm"/>
+        </iq:products>
+        <iq:permissions>
+            <!-- Body Battery, stress and heart rate are read from the system complications;
+                 SensorHistory is the fallback store when a complication is not offered -->
+            <iq:uses-permission id="SensorHistory"/>
+            <iq:uses-permission id="ComplicationSubscriber"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
